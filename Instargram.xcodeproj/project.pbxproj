@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6495F8EA2793C67F00A9F6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495F8E92793C67F00A9F6E0 /* AppDelegate.swift */; };
+		6495F8EC2793C67F00A9F6E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495F8EB2793C67F00A9F6E0 /* SceneDelegate.swift */; };
+		6495F8EE2793C67F00A9F6E0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495F8ED2793C67F00A9F6E0 /* FeedViewController.swift */; };
+		6495F8F32793C68300A9F6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6495F8F22793C68300A9F6E0 /* Assets.xcassets */; };
+		6495F8F62793C68300A9F6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6495F8F42793C68300A9F6E0 /* LaunchScreen.storyboard */; };
+		6495F91B2793C6BD00A9F6E0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6495F91A2793C6BD00A9F6E0 /* SnapKit */; };
+		6495F91D2793C88C00A9F6E0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495F91C2793C88C00A9F6E0 /* TabBarController.swift */; };
+		6495F9202793F1D000A9F6E0 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495F91F2793F1D000A9F6E0 /* FeedTableViewCell.swift */; };
+		6495F9222793FCB200A9F6E0 /* UIButton+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495F9212793FCB200A9F6E0 /* UIButton+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6495F8FD2793C68300A9F6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6495F8DE2793C67F00A9F6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6495F8E52793C67F00A9F6E0;
+			remoteInfo = Instargram;
+		};
+		6495F9072793C68300A9F6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6495F8DE2793C67F00A9F6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6495F8E52793C67F00A9F6E0;
+			remoteInfo = Instargram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6495F8E62793C67F00A9F6E0 /* Instargram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instargram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6495F8E92793C67F00A9F6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6495F8EB2793C67F00A9F6E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6495F8ED2793C67F00A9F6E0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		6495F8F22793C68300A9F6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6495F8F52793C68300A9F6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6495F8F72793C68300A9F6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6495F8FC2793C68300A9F6E0 /* InstargramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstargramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6495F9062793C68300A9F6E0 /* InstargramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstargramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6495F91C2793C88C00A9F6E0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6495F91F2793F1D000A9F6E0 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		6495F9212793FCB200A9F6E0 /* UIButton+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6495F8E32793C67F00A9F6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6495F91B2793C6BD00A9F6E0 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6495F8F92793C68300A9F6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6495F9032793C68300A9F6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6495F8DD2793C67E00A9F6E0 = {
+			isa = PBXGroup;
+			children = (
+				6495F8E82793C67F00A9F6E0 /* Instargram */,
+				6495F8E72793C67F00A9F6E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6495F8E72793C67F00A9F6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6495F8E62793C67F00A9F6E0 /* Instargram.app */,
+				6495F8FC2793C68300A9F6E0 /* InstargramTests.xctest */,
+				6495F9062793C68300A9F6E0 /* InstargramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6495F8E82793C67F00A9F6E0 /* Instargram */ = {
+			isa = PBXGroup;
+			children = (
+				6495F8E92793C67F00A9F6E0 /* AppDelegate.swift */,
+				6495F8EB2793C67F00A9F6E0 /* SceneDelegate.swift */,
+				6495F9212793FCB200A9F6E0 /* UIButton+extension.swift */,
+				6495F91E2793C89500A9F6E0 /* Scenes */,
+				6495F8F22793C68300A9F6E0 /* Assets.xcassets */,
+				6495F8F42793C68300A9F6E0 /* LaunchScreen.storyboard */,
+				6495F8F72793C68300A9F6E0 /* Info.plist */,
+			);
+			path = Instargram;
+			sourceTree = "<group>";
+		};
+		6495F91E2793C89500A9F6E0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6495F8ED2793C67F00A9F6E0 /* FeedViewController.swift */,
+				6495F91F2793F1D000A9F6E0 /* FeedTableViewCell.swift */,
+				6495F91C2793C88C00A9F6E0 /* TabBarController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6495F8E52793C67F00A9F6E0 /* Instargram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6495F9102793C68300A9F6E0 /* Build configuration list for PBXNativeTarget "Instargram" */;
+			buildPhases = (
+				6495F8E22793C67F00A9F6E0 /* Sources */,
+				6495F8E32793C67F00A9F6E0 /* Frameworks */,
+				6495F8E42793C67F00A9F6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instargram;
+			packageProductDependencies = (
+				6495F91A2793C6BD00A9F6E0 /* SnapKit */,
+			);
+			productName = Instargram;
+			productReference = 6495F8E62793C67F00A9F6E0 /* Instargram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6495F8FB2793C68300A9F6E0 /* InstargramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6495F9132793C68300A9F6E0 /* Build configuration list for PBXNativeTarget "InstargramTests" */;
+			buildPhases = (
+				6495F8F82793C68300A9F6E0 /* Sources */,
+				6495F8F92793C68300A9F6E0 /* Frameworks */,
+				6495F8FA2793C68300A9F6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6495F8FE2793C68300A9F6E0 /* PBXTargetDependency */,
+			);
+			name = InstargramTests;
+			productName = InstargramTests;
+			productReference = 6495F8FC2793C68300A9F6E0 /* InstargramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6495F9052793C68300A9F6E0 /* InstargramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6495F9162793C68300A9F6E0 /* Build configuration list for PBXNativeTarget "InstargramUITests" */;
+			buildPhases = (
+				6495F9022793C68300A9F6E0 /* Sources */,
+				6495F9032793C68300A9F6E0 /* Frameworks */,
+				6495F9042793C68300A9F6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6495F9082793C68300A9F6E0 /* PBXTargetDependency */,
+			);
+			name = InstargramUITests;
+			productName = InstargramUITests;
+			productReference = 6495F9062793C68300A9F6E0 /* InstargramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6495F8DE2793C67F00A9F6E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6495F8E52793C67F00A9F6E0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6495F8FB2793C68300A9F6E0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6495F8E52793C67F00A9F6E0;
+					};
+					6495F9052793C68300A9F6E0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6495F8E52793C67F00A9F6E0;
+					};
+				};
+			};
+			buildConfigurationList = 6495F8E12793C67F00A9F6E0 /* Build configuration list for PBXProject "Instargram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6495F8DD2793C67E00A9F6E0;
+			packageReferences = (
+				6495F9192793C6BD00A9F6E0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 6495F8E72793C67F00A9F6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6495F8E52793C67F00A9F6E0 /* Instargram */,
+				6495F8FB2793C68300A9F6E0 /* InstargramTests */,
+				6495F9052793C68300A9F6E0 /* InstargramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6495F8E42793C67F00A9F6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6495F8F62793C68300A9F6E0 /* LaunchScreen.storyboard in Resources */,
+				6495F8F32793C68300A9F6E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6495F8FA2793C68300A9F6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6495F9042793C68300A9F6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6495F8E22793C67F00A9F6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6495F8EE2793C67F00A9F6E0 /* FeedViewController.swift in Sources */,
+				6495F91D2793C88C00A9F6E0 /* TabBarController.swift in Sources */,
+				6495F8EA2793C67F00A9F6E0 /* AppDelegate.swift in Sources */,
+				6495F8EC2793C67F00A9F6E0 /* SceneDelegate.swift in Sources */,
+				6495F9202793F1D000A9F6E0 /* FeedTableViewCell.swift in Sources */,
+				6495F9222793FCB200A9F6E0 /* UIButton+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6495F8F82793C68300A9F6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6495F9022793C68300A9F6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6495F8FE2793C68300A9F6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6495F8E52793C67F00A9F6E0 /* Instargram */;
+			targetProxy = 6495F8FD2793C68300A9F6E0 /* PBXContainerItemProxy */;
+		};
+		6495F9082793C68300A9F6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6495F8E52793C67F00A9F6E0 /* Instargram */;
+			targetProxy = 6495F9072793C68300A9F6E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6495F8F42793C68300A9F6E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6495F8F52793C68300A9F6E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6495F90E2793C68300A9F6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6495F90F2793C68300A9F6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6495F9112793C68300A9F6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJN8UXL48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instargram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmkim.Instargram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6495F9122793C68300A9F6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJN8UXL48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instargram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmkim.Instargram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6495F9142793C68300A9F6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJN8UXL48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmkim.InstargramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instargram.app/Instargram";
+			};
+			name = Debug;
+		};
+		6495F9152793C68300A9F6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJN8UXL48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmkim.InstargramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instargram.app/Instargram";
+			};
+			name = Release;
+		};
+		6495F9172793C68300A9F6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJN8UXL48;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmkim.InstargramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instargram;
+			};
+			name = Debug;
+		};
+		6495F9182793C68300A9F6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJN8UXL48;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmkim.InstargramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instargram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6495F8E12793C67F00A9F6E0 /* Build configuration list for PBXProject "Instargram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6495F90E2793C68300A9F6E0 /* Debug */,
+				6495F90F2793C68300A9F6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6495F9102793C68300A9F6E0 /* Build configuration list for PBXNativeTarget "Instargram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6495F9112793C68300A9F6E0 /* Debug */,
+				6495F9122793C68300A9F6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6495F9132793C68300A9F6E0 /* Build configuration list for PBXNativeTarget "InstargramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6495F9142793C68300A9F6E0 /* Debug */,
+				6495F9152793C68300A9F6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6495F9162793C68300A9F6E0 /* Build configuration list for PBXNativeTarget "InstargramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6495F9172793C68300A9F6E0 /* Debug */,
+				6495F9182793C68300A9F6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6495F9192793C6BD00A9F6E0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6495F91A2793C6BD00A9F6E0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6495F9192793C6BD00A9F6E0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6495F8DE2793C67F00A9F6E0 /* Project object */;
+}
